@@ -27,7 +27,7 @@ Install **Adafruit LiquidCrystal** from the Arduino IDE Library Manager:
 2. Search for `Adafruit LiquidCrystal`
 3. Install the Adafruit package
 
-Docs: [Arduino I2C use](https://learn.adafruit.com/i2c-spi-lcd-backpack/arduino-i2c-use)
+Docs: [Arduino I2C use](https://learn.adafruit.com/i2c-spi-lcd-backpack/arduino-i2c-use). For the current API, use the library’s [HelloWorld_i2c](https://github.com/adafruit/Adafruit_LiquidCrystal/blob/master/examples/HelloWorld_i2c/HelloWorld_i2c.ino) example (`Adafruit_LiquidCrystal`); some learn-guide snippets still show the older `LiquidCrystal` name.
 
 ## Upload
 

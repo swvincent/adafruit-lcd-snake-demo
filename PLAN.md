@@ -6,7 +6,7 @@
 - **Display:** [Adafruit 20x4 HD44780](https://www.adafruit.com/product/198) via [I2C/SPI backpack](https://www.adafruit.com/product/292)
 - **I2C:** default address offset `0` (`0x20`), no A0–A2 jumpers
 - **Power:** backpack `5V` and `GND` are powered from the Arduino Leonardo (same board as SDA/SCL)
-- **Library:** [Adafruit_LiquidCrystal](https://learn.adafruit.com/i2c-spi-lcd-backpack/arduino-i2c-use) from Library Manager — use class `Adafruit_LiquidCrystal`: `Adafruit_LiquidCrystal lcd(0);`
+- **Library:** [Adafruit_LiquidCrystal](https://learn.adafruit.com/i2c-spi-lcd-backpack/arduino-i2c-use) from Library Manager — use class `Adafruit_LiquidCrystal`: `Adafruit_LiquidCrystal lcd(0);`. Prefer the current [HelloWorld_i2c](https://github.com/adafruit/Adafruit_LiquidCrystal/blob/master/examples/HelloWorld_i2c/HelloWorld_i2c.ino) example over older learn-guide snippets that still show `LiquidCrystal`.
 
 ## Repo layout (Arduino IDE)
 
