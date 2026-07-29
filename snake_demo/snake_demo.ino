@@ -13,7 +13,7 @@
 static const uint8_t COLS = 20;
 static const uint8_t ROWS = 4;
 static const uint8_t SNAKE_LEN = 8;
-static const uint16_t STEP_MS = 250;
+static const uint16_t STEP_MS = 300;
 static const uint8_t I2C_ADDR_OFFSET = 0;
 
 // CGRAM indices
