@@ -15,7 +15,7 @@ The snake chases food on its own—no buttons or joystick required.
 
 Power the backpack from the Leonardo (`5V` and `GND`). Hardware I2C on the Leonardo already uses D2/D3, which matches this backpack.
 
-**I2C address:** default offset `0` (`0x20`) with no A0–A2 jumpers soldered. If you change the jumpers, update the sketch constructor (`LiquidCrystal lcd(0);`) to match.
+**I2C address:** default offset `0` (`0x20`) with no A0–A2 jumpers soldered. If you change the jumpers, update the sketch constructor (`Adafruit_LiquidCrystal lcd(0);`) to match.
 
 **Contrast:** adjust the backpack’s contrast potentiometer until characters are sharp. If the screen looks blank or solid blocks, the pot is usually the first thing to check.
 

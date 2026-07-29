@@ -6,7 +6,7 @@
 - **Display:** [Adafruit 20x4 HD44780](https://www.adafruit.com/product/198) via [I2C/SPI backpack](https://www.adafruit.com/product/292)
 - **I2C:** default address offset `0` (`0x20`), no A0–A2 jumpers
 - **Power:** backpack `5V` and `GND` are powered from the Arduino Leonardo (same board as SDA/SCL)
-- **Library:** [Adafruit_LiquidCrystal](https://learn.adafruit.com/i2c-spi-lcd-backpack/arduino-i2c-use) from Library Manager (`LiquidCrystal lcd(0);` for I2C)
+- **Library:** [Adafruit_LiquidCrystal](https://learn.adafruit.com/i2c-spi-lcd-backpack/arduino-i2c-use) from Library Manager — use class `Adafruit_LiquidCrystal`: `Adafruit_LiquidCrystal lcd(0);`
 
 ## Repo layout (Arduino IDE)
 
